@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tony Portfolio</title>
 
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/cf42e3019c.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,62 +48,85 @@
   <body>
     <head> </head>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <section id="title">
+      <div class="row">
+        <div class="col col-lg-4 col-md-4 col-sm-12 col-sm-auto title-text">
+          <h1>Art Ogoma is now Online.</h1>
+          <p>
+            I blend intuition and experience to produce illusive drawings upto a
+            minimum of three days
+          </p>
+          <button type="button" class="btn btn-light">Order Now</button>
+        </div>
+        <div class="col">
+          <img
+            src="img/IMG-7.jpg"
+            alt="Drawing of a young girl."
+            class="title-image shadow"
+          />
         </div>
       </div>
-    </nav>
+      <div class="transparent-overlay"></div>
+    </section>
 
-    <div class="row title-section">
-      <div class="col col-lg-6 col-sm-auto title-text">
-        <h1 class="title-heading">Art Ogoma is now Online</h1>
-        <p>Get your delivery in 4 days.</p>
+    <section id="services">
+      <div class="services">
+        <div class="service-text">
+          <h2>My Services</h2>
+          <p>
+            I purely deal in pencil art work, work-referencing photos provided
+            my clients and deliver within a maximum of 3 working days
+          </p>
+        </div>
+        <div class="row service-item-container">
+          <div class="col service-item">
+            <i class="fa-solid fa-paintbrush service-icon"></i>
+            <h3>A2 Size</h3>
+            <p>
+              Overall, it's a little bit bigger than a British broadsheet
+              newspaper.
+            </p>
+          </div>
+          <div class="col service-item">
+            <i class="fa-solid fa-paintbrush service-icon"></i>
+            <h3>A3 Size</h3>
+            <p>
+              A3 paper measures 297 x 420 mm, which is roughly the same size as
+              a tabloid newspaper but has slightly different proportions.
+            </p>
+          </div>
+          <div class="col service-item">
+            <i class="fa-solid fa-paintbrush service-icon"></i>
+            <h3>A4 Size</h3>
+            <p>
+              A4 paper size is 210 x 297 mm. This is the standard printing
+              method used in the UK for anything from Word documents to
+              stationery letterheads.
+            </p>
+          </div>
+          <div class="col service-item">
+            <i class="fa-solid fa-paintbrush service-icon"></i>
+            <h3>A5 Size</h3>
+            <p>
+              A5 paper size is 148.5 x 210 mm. This is the smallest size I will
+              draw.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="col col-lg-6 col-sm-auto">
-        <img src="img/IMG-7.jpg" alt="Young lad drawing" class="title-image" />
-      </div>
-    </div>
+    </section>
+
+    <section id="pricing"></section>
+
+    <section id="testimonials"></section>
+
+    <section id="contact"></section>
+
+    <div class="footer"></div>
 
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
   </body>
