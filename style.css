@@ -3,13 +3,23 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 #title {
     background-color: #0067F4;
 }
 
 .title-text {
     padding-top: 10%;
-    padding-left: 15%;
+    padding-left: 10%;
     text-align: left;
     color: white;
 }
@@ -58,5 +68,29 @@ body {
     max-width: 100%;
     margin: 2%;
     border-radius: 3%;
-    border-top: thick solid #0067F4;
+}
+
+/* Testimonials Section  */
+
+.testimonial-image {
+    max-width: 100%;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+
+.testimonial-image-group {
+    padding: 2% 30% 2%;
+}
+
+.testimonials {
+    background-color: #EAECEF;
+    padding: 5% 20% 5%;
+}
+
+.rating {
+    padding-top: 2%;
+}
+
+.testimonials p {
+    color: #555555;
 }
